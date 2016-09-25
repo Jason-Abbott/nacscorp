@@ -2,15 +2,7 @@
 <head>
 <BASE HREF="http://www.nacscorp.com/guest/browse_guest.stm">
 
-<title>NACSCORP Product Database</title>
-<meta name="description" 
-content="NACSCORP product database.  This public database shows titles and availability only.
-">
-
-<meta name="keywords"
-content="distributor, books, computer hardware, software, NACSCORP, 
-higher education, NACS, National Association of College Stores, 
-college stores, bookstores, publishers">
+<title>NACSCORP Product Information</title>
 </head>
 
 <body bgcolor="cba5c3" background="/graphics/textures/PurpleBar.gif" link="692758" vlink="692758">
@@ -19,18 +11,18 @@ college stores, bookstores, publishers">
    <td valign=top align=center>
 <font size=2>
 <br><br><br>
-<a href="/guest/browse_guest.stm"><img src="/graphics/buttons/browse_small.jpg"
+<a href="/guest/browse_guest.stm"><img src="/graphics/buttons/browse_small.gif"
    alt="Browse Database" border=0></a><p>
-<a href="/guest/vendors_guest.stm"><img src="/graphics/buttons/vendors_small.jpg"
+<a href="/guest/vendors_guest.stm"><img src="/graphics/buttons/vendors_small.gif"
    alt="Vendor Information" border=0></a><p>
-<a href="/guest/policies_guest.stm"><img src="/graphics/buttons/policies_small.jpg"
-   alt="Policies and Contacts" border=0></a><p>
-<a href="/guest/licensing/guest_vl.stm"><img src="/graphics/buttons/licensing_small.jpg"
-   alt="Volume Licensing" border=0></a><p>
+<a href="/guest/policies_guest.stm"><img src="/graphics/buttons/policies_small.gif"
+   alt="Policies" border=0></a><p>
 <a href="http://www.nacs.org"><img src="/graphics/buttons/nacs_small.gif"
    alt="NACS Home Page" border=0></a><p>
-<a href="/store/vendors_store.stm"><img src="/graphics/buttons/access_small.gif"
-   alt="Members Home Page" border=0></a>
+
+
+<a href="/store/browse_store.stm"><img src="/graphics/buttons/access_small.gif"
+   border=0></a>
 </font>
    </td>
    <td align=left>
@@ -40,8 +32,6 @@ college stores, bookstores, publishers">
 <img src="/graphics/buttons/back.gif" border=0 alt="Back">
 </a>
 <img src="/graphics/buttons/forward.gif" border=0 alt="Forward">
-
-
 <p>
 <form action="/scripts/browse_guest.pl" method="post">
 <table cellpadding=6>
@@ -58,9 +48,9 @@ college stores, bookstores, publishers">
    <td><input type="text" name="title" size=15></td>
    <td rowspan=4>
    Select the database you would like to search<br>
-   <font size=2><input type="radio" name="db" value="soft">
+   <font size=2><input type="radio" name="db" value="soft" checked>
       Computer Products and Related Books<br>
-   <input type="radio" name="db" value="title" checked>
+   <input type="radio" name="db" value="title">
       All NACSCORP Products<br>
    Return no more than <select name="max">
       <option selected>50
@@ -789,33 +779,23 @@ Guide to Searching</a>.
 
       </font></td>
 <tr>
-   <td><table width=100%>
-<tr>
-<td valign=top>
-<img align=left src="/common/new04.gif">
-</td>
-<td>
-<B><FONT SIZE=3>Free Norton Antivirus with Microsoft Office 97!<BR>
-</B><FONT SIZE=2>Buy new Microsoft Office or Office for Windows
-and receive Norton Antivirus at no additional Charge<BR>
-</FONT><FONT SIZE=1>Microsoft Office for Mac includes Norton Utilities
-at no additional cost.  Subject to restrictions.</FONT>  
-</td>
-</tr>
-</table>
+   <td><img align=left src="/common/new04.gif">
+While supplies last, all copies of Microsoft Office for Windows,
+Windows 95, and Mac will be bundled with Symantec Norton Utilities
+at <i>no additional charge</i>!  Contact your college store today for more details.  
+Subject to restrictions.
 </td>
 </table>
 </form>
 
 <p>
 <font size=2>
-<i>Need assistance?<a href="mailto:webmaster@nacscorp.com">webmaster@nacscorp.com</a> can help.</i>
+<i>Need assistance?<a href="mailto:smuniak@nacscorp.com">smuniak@nacscorp.com</a> can help.</i>
 <hr>
 <a href="/default.htm">Home</a> •
 <a href="/guest/browse_guest.stm">Browse the Product Database</a> •
 <a href="/guest/vendors_guest.stm">Vendor Information</a> •
-<a href="/guest/policies_guest.stm">Policies & Contacts</a> •
-<a href="/guest/licensing/guest_vl.stm">Volume Licensing</a> •
+<a href="/guest/policies_guest.stm">Policies</a> •
 <a href="http://www.nacs.org">NACS</a></font>
 
    </td>
@@ -823,4 +803,34 @@ at no additional cost.  Subject to restrictions.</FONT>
 
 
 </body>
+
+<SCRIPT language="Javascript">
+<!--
+
+// FILE ARCHIVED ON 19970204144104 AND RETRIEVED FROM THE
+// INTERNET ARCHIVE ON 20030412091948.
+// JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+// ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+// SECTION 108(a)(3)).
+
+   var sWayBackCGI = "http://web.archive.org/web/19970204144104/";
+
+   function xLateUrl(aCollection, sProp) {
+      var i = 0;
+      for(i = 0; i < aCollection.length; i++)
+         if (aCollection[i][sProp].indexOf("mailto:") == -1 &&
+             aCollection[i][sProp].indexOf("javascript:") == -1)
+            aCollection[i][sProp] = sWayBackCGI + aCollection[i][sProp];
+   }
+
+   if (document.links)  xLateUrl(document.links, "href");
+   if (document.images) xLateUrl(document.images, "src");
+   if (document.embeds) xLateUrl(document.embeds, "src");
+
+   if (document.body && document.body.background)
+      document.body.background = sWayBackCGI + document.body.background;
+
+//-->
+
+</SCRIPT>
 </html>

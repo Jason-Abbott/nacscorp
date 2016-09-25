@@ -2,18 +2,8 @@
 <head>
 <BASE HREF="http://www.nacscorp.com/guest/policies_guest.stm">
 
-<title>NACSCORP Policies</title>
-<meta name="description" 
-content="NACSCORP policies and instructions for ordering, shipping, payments, and returns.  Includes company contacts and an overview of value-added services.
-">
-
-<meta name="keywords"
-content="distributor, books, computer hardware, software, NACSCORP, 
-higher education, NACS, National Association of College Stores, 
-college stores, bookstores, publishers">
-
+<title>Welcome to NACSCORP</title>
 </head>
-
 
 <body bgcolor="cba5c3" background="/graphics/textures/PurpleBar.gif" link="692758" vlink="692758">
 
@@ -21,18 +11,18 @@ college stores, bookstores, publishers">
    <td valign=top align=center>
 <font size=2>
 <br><br><br>
-<a href="/guest/browse_guest.stm"><img src="/graphics/buttons/browse_small.jpg"
+<a href="/guest/browse_guest.stm"><img src="/graphics/buttons/browse_small.gif"
    alt="Browse Database" border=0></a><p>
-<a href="/guest/vendors_guest.stm"><img src="/graphics/buttons/vendors_small.jpg"
+<a href="/guest/vendors_guest.stm"><img src="/graphics/buttons/vendors_small.gif"
    alt="Vendor Information" border=0></a><p>
-<a href="/guest/policies_guest.stm"><img src="/graphics/buttons/policies_small.jpg"
-   alt="Policies and Contacts" border=0></a><p>
-<a href="/guest/licensing/guest_vl.stm"><img src="/graphics/buttons/licensing_small.jpg"
-   alt="Volume Licensing" border=0></a><p>
+<a href="/guest/policies_guest.stm"><img src="/graphics/buttons/policies_small.gif"
+   alt="Policies" border=0></a><p>
 <a href="http://www.nacs.org"><img src="/graphics/buttons/nacs_small.gif"
    alt="NACS Home Page" border=0></a><p>
-<a href="/store/vendors_store.stm"><img src="/graphics/buttons/access_small.gif"
-   alt="Members Home Page" border=0></a>
+
+
+<a href="/store/policies_store.stm"><img src="/graphics/buttons/access_small.gif"
+   border=0></a>
 </font>
    </td>
    <td align=left>
@@ -213,7 +203,7 @@ In certain cases our Customer Service Reps give out RMAs.  If you have been give
 <h3><a name="CATALOGS">CATALOGS AND MERCHANDISING AIDS<b> </b></a></h3>
 <B><P>Catalog Information</P>
 </B><P>NACSCORP publishes the following catalogs: <I>Inventory Catalog</I> (April), a complete listing of our book inventory; <I>Computer Products Catalog</I>, store version (August, December, April); <I>Campus Computing Sourcebook</I>, consumer version (August, January); <I>Computer Products Specialty "Guidebook" Catalogs (November, April); Dictionary and Reference Catalog</I> (May); <I>Study Guides and Test Preparation Catalog</I> (August); <I>Calendar Catalog</I>; <I>Computer Books Catalog</I>; <I>Remainders Catalog</I>.</P>
-<P>Call our Inbound Sales Department at (800) 321-3883 to order catalogs. Catalog information is also available on microfiche, diskette, and on our World Wide Web home page (www.nacscorp.com). Call Jerry Berndobler at 800-622-7498 for more information.</P>
+<P>Call our Inbound Sales Department at (800) 321-3883 to order catalogs. Catalog information is also available on microfiche, diskette, and on our World Wide Web home page (www.nacscorp.com). Call Steve Muniak at 800-622-7498 for more information.</P>
 <B><P>Calendar of Book Promotions</P>
 </B><P>NACSCORP produces a "Calendar of Promotions" centered around events that are important on the college campus. Examples of these promotions are Women's History Month, Nature &amp; Ecology (Earth Day), African American History Month, Children's Book Week, and Banned Book Week. NACSCORP selects titles for each theme, and provides effective merchandising and advertising materials to maximize your sales. Please contact Brenda Handley in our Book Merchandising Department (800-622-7498 ext. 2355) for a complete listing of these promotions.</P>
 <B><P>Automatic Shipment Programs</P>
@@ -274,19 +264,21 @@ WWW access (to check pricing and availability): www.nacscorp.com<BR>
 Easylink (Telex): 62-820233<BR>
 Internet address: 62820233@eln.attmail.com <BR>
 <BR>
-
+<B><I>For Technical Support: </I>(800) 334-9882 ext. 2580<BR>
+</B>Mike Mullins, Computer Products Support Specialist<BR>
+<BR>
 <B><I>For questions about return credits, billing, or price protection; and to report damaged, lost, or inaccurate shipments: <BR>
 </B></I>Customer Service Line: <B>(800) 458-9303</B> or e-mail: <B>service@nacscorp.com<BR>
 </B>Dave Erdei, Customer Service Representative (main line extension: 2210) <BR>
 Judy Wurtz, Customer Service Representative(main line extension: 2208) </P>
 <P><HR></P>
-<B><P>World Wide Web</B><BR>
+<B><P>Interactive Services (World Wide Web)</B><BR>
 <I>For access to our Web site and on-line title database; information about on-line order tracking and electronic commerce: <BR>
-</I>Jerry Berndobler ext. 2400 </P>
+</I>Steve Muniak, Interactive Services Manager ext. 2249 </P>
 <P><HR></P>
 <B><P>Finance</B><BR>
 Frank Sulen, Vice President/Treasurer ext. 2203<BR>
-Joe Chandler ext. 2391<BR>
+Carolyn Greene Gens, Controller ext. 2370<BR>
 <br>
 <B><I>For questions about credit, invoices, Credit Swap program, and to review your account status: <BR>
 </B></I>Cathy Ciehanoski, Credit Manager ext. 2235 </P>
@@ -307,26 +299,24 @@ Jim Hocevar, Computer Product Merchandise Mgr. ext. 2425</P>
 <BR>
 <B><I>For information about promotions, programs, products, and material to support your store:<BR>
 </B></I>800/622-7498 at one of the following extensions: </P>
-<P>
-Mary Adler-Kozak ext. 2204<BR>
-Connecticut, Florida, Maryland, Minnesota, Ohio, South Carolina, South Dakota, Vermont<BR>
-<BR>
-Joe Calfo ext. 2260<BR>
-Delaware, Georgia, Hawaii, New Mexico, New York, Oregon, Utah, Virginia<BR>
-<BR>
-Terry Caudill ext. 2315<BR>
-AAFES, Alabama, Iowa, Kansas, Tennessee, Texas, Washington, Washington DC, West Virginia, Wisconsin<BR>
+<P>Terry Caudill ext. 2315<BR>
+AAFES, Alabama, Iowa, Kansas, Tennessee, Texas, West Virginia, Washington, Washington DC, Wisconsin<BR>
 <BR>
 Alison Coleman ext. 2437<BR>
-Alaska, California, Louisiana, Massachusetts, Mississippi, Nevada, North Dakota, Wyoming<BR>
-<BR>
-Maria Papouras ext. 2314<BR>
-Arkansas, Idaho, Illinois, Maine, Michigan, Oklahoma, New Jersey, North Carolina<BR>
+Alaska, California, Louisiana, Massachusetts, Mississippi, North Dakota, Nevada, Wyoming<BR>
 <BR>
 Cindy Tackett ext. 2390<BR>
-Arizona, Colorado, Indiana, Kentucky, Missouri, Montana, Nebraska, New Hampshire, Pennsylvania, Rhode Island<BR>
-</P>
+Arizona, Colorado, Indiana, Kentucky, Missouri, Montana, New Hampshire, Nebraska, Pennsylvania, Rhode Island<BR>
+<BR>
+Phil Heath ext. 2260<BR>
+Connecticut, Florida, Maryland, Minnesota, Ohio, South Carolina, South Dakota, Vermont<BR>
+<BR>
+Sue Schuster ext. 2314<BR>
+Arkansas, Idaho, Illinois, Maine, Michigan, Oklahoma, New Jersey, North Carolina<BR>
+<BR>
 
+Maria Papouras ext. 2472<BR>
+Delaware, Georgia, Hawaii, New Mexico, New York, Oregon, Utah, Virginia</P>
 <P><HR></P>
 <B><P>Software Volume Licensing</B><BR>
 <BR>
@@ -338,13 +328,12 @@ Joey Tappel, Licensing Specialist
 
 <p>
 <font size=2>
-<i>Need assistance?<a href="mailto:webmaster@nacscorp.com">webmaster@nacscorp.com</a> can help.</i>
+<i>Need assistance?<a href="mailto:smuniak@nacscorp.com">smuniak@nacscorp.com</a> can help.</i>
 <hr>
 <a href="/default.htm">Home</a> •
 <a href="/guest/browse_guest.stm">Browse the Product Database</a> •
 <a href="/guest/vendors_guest.stm">Vendor Information</a> •
-<a href="/guest/policies_guest.stm">Policies & Contacts</a> •
-<a href="/guest/licensing/guest_vl.stm">Volume Licensing</a> •
+<a href="/guest/policies_guest.stm">Policies</a> •
 <a href="http://www.nacs.org">NACS</a></font>
 
    </td>
@@ -352,4 +341,34 @@ Joey Tappel, Licensing Specialist
 
 
 </body>
+
+<SCRIPT language="Javascript">
+<!--
+
+// FILE ARCHIVED ON 19970415101201 AND RETRIEVED FROM THE
+// INTERNET ARCHIVE ON 20030412091419.
+// JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+// ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+// SECTION 108(a)(3)).
+
+   var sWayBackCGI = "http://web.archive.org/web/19970415101201/";
+
+   function xLateUrl(aCollection, sProp) {
+      var i = 0;
+      for(i = 0; i < aCollection.length; i++)
+         if (aCollection[i][sProp].indexOf("mailto:") == -1 &&
+             aCollection[i][sProp].indexOf("javascript:") == -1)
+            aCollection[i][sProp] = sWayBackCGI + aCollection[i][sProp];
+   }
+
+   if (document.links)  xLateUrl(document.links, "href");
+   if (document.images) xLateUrl(document.images, "src");
+   if (document.embeds) xLateUrl(document.embeds, "src");
+
+   if (document.body && document.body.background)
+      document.body.background = sWayBackCGI + document.body.background;
+
+//-->
+
+</SCRIPT>
 </html>
