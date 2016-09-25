@@ -1,0 +1,73 @@
+<html>
+<head>
+<BASE HREF="http://www.nacscorp.com/common/browse_guide.stm">
+
+<title>NACSCORP Search Engine Guide</title>
+</head>
+
+<body bgcolor="cba5c3" background="/graphics/textures/PurpleBar.gif" link="692758" vlink="692758">
+
+<table cellpadding=4>
+   <td valign=top align=center>
+<font size=2>
+<br><br><br>
+<a href="/guest/browse_guest.stm"><img src="/graphics/buttons/browse_small.gif"
+   alt="Browse Database" border=0></a><p>
+<a href="/guest/vendors_guest.stm"><img src="/graphics/buttons/vendors_small.gif"
+   alt="Vendor Information" border=0></a><p>
+<a href="/guest/policies_guest.stm"><img src="/graphics/buttons/policies_small.gif"
+   alt="Policies" border=0></a><p>
+<a href="http://www.nacs.org"><img src="/graphics/buttons/nacs_small.gif"
+   alt="NACS Home Page" border=0></a><p>
+
+
+   </td>
+   <td align=left>
+
+<a href="/guest/browse_guest.stm">
+<img src="/graphics/buttons/back.gif" border=0 alt="Back"></a>
+<a href="/default.htm">
+<img src="/graphics/logos/nacscorp_small.gif" border=0 alt="Home"></a>
+<img src="/graphics/beta.gif">
+<p>
+
+<h3>Searching</h3>
+
+The NACSCORP database is split into two separate databases.  
+The first is the computer product database, which includes all hardware, software, 
+peripherals and computer books.  The second is the complete database, which includes
+all book, calendar and miscellaneous products sold by NACSCORP.
+<p>
+Searches can be performed on ISBN or UPC, or any combination of Manufacturers Part Number,
+Author, Title and Publisher with associated filters.
+<p>
+To search enter an ISBN or UPC into the ISBN/UPC field.  This is the fastest
+search method and will return the results for that specific value.  Partial
+ISBN/UPC numbers are accepted.
+<p>
+To search on the other related fields enter your data into the fields.
+The search is by keyword and will find all matching strings.  Example
+Title search on:  <b>TAMING</b>, will return HANDMADE WILDERNESS:UN<b>TAMING</b>
+THE LAND and <b>TAMING</b> OF THE SHREW.
+<p>
+Filters will further limit your search. The Category filter will limit your search
+on categories of products, such as BLACK STUDIES or ESL titles.  The Type filter
+will limit your search based on binding or product type, such as ADULT HARDCOVER
+of AUDIO.
+<p>
+
+
+<p>
+<font size=2>
+Please contact NACSCORP at <a href="mailto:smuniak\@nacscorp.com">smuniak@nacscorp.com</a> for further help<br>
+<hr>
+<a href="/welcome.htm">Home</a> •
+<a href="/vendors.htm">Vendor Information</a> •
+<a href="/policies.htm">Policies</a></font>
+
+   </td>
+</table>
+
+</body>
+
+</html>

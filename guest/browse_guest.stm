@@ -1,0 +1,826 @@
+<html>
+<head>
+<BASE HREF="http://www.nacscorp.com/guest/browse_guest.stm">
+
+<title>NACSCORP Product Database</title>
+<meta name="description" 
+content="NACSCORP product database.  This public database shows titles and availability only.
+">
+
+<meta name="keywords"
+content="distributor, books, computer hardware, software, NACSCORP, 
+higher education, NACS, National Association of College Stores, 
+college stores, bookstores, publishers">
+</head>
+
+<body bgcolor="cba5c3" background="/graphics/textures/PurpleBar.gif" link="692758" vlink="692758">
+
+<table cellpadding=4>
+   <td valign=top align=center>
+<font size=2>
+<br><br><br>
+<a href="/guest/browse_guest.stm"><img src="/graphics/buttons/browse_small.jpg"
+   alt="Browse Database" border=0></a><p>
+<a href="/guest/vendors_guest.stm"><img src="/graphics/buttons/vendors_small.jpg"
+   alt="Vendor Information" border=0></a><p>
+<a href="/guest/policies_guest.stm"><img src="/graphics/buttons/policies_small.jpg"
+   alt="Policies and Contacts" border=0></a><p>
+<a href="/guest/licensing/guest_vl.stm"><img src="/graphics/buttons/licensing_small.jpg"
+   alt="Volume Licensing" border=0></a><p>
+<a href="http://www.nacs.org"><img src="/graphics/buttons/nacs_small.gif"
+   alt="NACS Home Page" border=0></a><p>
+<a href="/store/vendors_store.stm"><img src="/graphics/buttons/access_small.gif"
+   alt="Members Home Page" border=0></a>
+</font>
+   </td>
+   <td align=left>
+
+<a href="/default.htm">
+<img src="/graphics/logos/nacscorp_small.gif" border=0 alt="Home">
+<img src="/graphics/buttons/back.gif" border=0 alt="Back">
+</a>
+<img src="/graphics/buttons/forward.gif" border=0 alt="Forward">
+
+
+<p>
+<form action="/scripts/browse_guest.pl" method="post">
+<table cellpadding=6>
+<tr>
+   <td bgcolor="cba5c3">
+      <table cellpadding=0 cellspacing=1>
+<tr>
+   <td align=right><font size=2>Author/<br>Media</td>
+   <td><input type="text" name="author" size=15></td>
+   <td><input type="submit" value="Search">
+      <input type="reset" value="Clear"></td>
+<tr>
+   <td align=right><font size=2>Title</td>
+   <td><input type="text" name="title" size=15></td>
+   <td rowspan=4>
+   Select the database you would like to search<br>
+   <font size=2><input type="radio" name="db" value="soft">
+      Computer Products and Related Books<br>
+   <input type="radio" name="db" value="title" checked>
+      All NACSCORP Products<br>
+   Return no more than <select name="max">
+      <option selected>50
+      <option>100
+      <option>150
+      <option>200</select> records.
+  </td>
+<tr>
+   <td align=right><font size=2>Publisher</td>
+   <td><input type="text" name="pubtext" size=15></td>
+<tr>
+   <td align=right><font size=2>ISBN/<br>UPC</td>
+   <td><font size=2><input type="text" name="isbn" size=15></td>
+<tr>
+   <td align=right><font size=2>MFR #</td>
+   <td><input type="text" name="mfr" size=15></td>
+<tr>
+   <td align=right><font size=2>Publisher<br>Pull-down</td>
+   <td colspan=2><select name="pub">
+      <option selected>Any
+      <option value=TCP>21ST CENTURY PUBL
+<option value=3M>3M SAFETY & SECURITY SYSTEMS
+<option value=APEX>AAPEX SOFTWARE CORP
+<option value=ABCU>ABACUS
+<option value=ABAC>ABACUS CONCEPTS
+<option value=ABBE>ABBEVILLE PUBLISHING GROUP
+<option value=ACAD>ACADEMIC PRESS INC
+<option value=ACP>ACADEMY CHICAGO PUBL
+<option value=ACCL>ACCLAIM ENTERTAINMENT
+<option value=ADAM>ADAMS MEDIA CORP
+<option value=ADDW>ADDISON WESLEY PUBL CO INC
+<option value=ADV>ADVANCED SOFTWARE LC
+<option value=ADVA>ADVANSTAR MARKETING SERVICES
+<option value=AQI>ADVENTURE QUEST INC
+<option value=AEI>AEI PRESS
+<option value=AIRM>AIRMONT PUBL CO INC
+<option value=APC>ALCOVE PUBL CO
+<option value=ALT>ALTSYS CORP
+<option value=AMAC>AMACOM BOOK CO
+<option value=AMBE>AMBER LOTUS
+<option value=AVIM>AMER ASSOC VOC INST MATERIALS
+<option value=AEP>AMERICAN EDUCATION PUBL
+<option value=AIA>AMERICAN INST OF ARCHITECTS
+<option value=AMER>AMERICAN MAP CORP
+<option value=APSY>AMERICAN PSYCHIATRIC PRESS
+<option value=APA>AMERICAN PSYCHOLOGICAL ASSOC
+<option value=ASEE>AMERICAN SOCIETY ENGINEER EDUC
+<option value=ATI>AMERICAN TRAINING INTL
+<option value=ANCH>ANCHORPAD PRODUCTS
+<option value=AMC>ANDREWS & MCMEEL INC
+<option value=AA>ANN ARBOR UNIV OF MICH PRESS
+<option value=APER>APERTURE
+<option value=APPL>APPLAUSE
+<option value=ARG>ARGUS COMMUNICATIONS
+<option value=ARTE>ARTE PUBLICO PRESS
+<option value=ART>ARTIFICE INC
+<option value=ASD>ASD SOFTWARE INC
+<option value=ABC>ASSORTED BOOK COMPANY
+<option value=ASYM>ASYMETRIX CORP
+<option value=ATT>AT&T CO
+<option value=ATRI>ATRIUM PUBL GROUP
+<option value=ATTN>ATTAIN CORP
+<option value=AUGS>AUGSBURG FORTRESS PUBL
+<option value=AUGH>AUGUST HOUSE
+<option value=AUTO>AUTODESK RETAIL
+<option value=AVAL>AVALANCHE
+<option value=AVER>AVERY DENNISON
+<option value=AVON>AVON BOOKS
+<option value=BAL>BALLANTINE BKS
+<option value=DELL>BANTAM DOUBLEDAY DELL
+<option value=DD>BANTAM DOUBLEDAY DELL
+<option value=BANT>BANTAM DOUBLEDAY DELL
+<option value=BARI>BARICADE BOOKS
+<option value=BARR>BARRONS EDUCATIONAL SERIES INC
+<option value=BASK>BASKERVILLE PUBL INC
+<option value=BAYW>BAYWARE
+<option value=BEAC>BEACON PRESS
+<option value=BEND>BENDALL BOOKS
+<option value=BPI>BERG PUBLISHERS INC
+<option value=BSI>BERKELEY SYSTEMS INC
+<option value=BERK>BERKLEY PUBL GROUP
+<option value=ACE>BERKLEY PUBL GROUP ACE
+<option value=JOVE>BERKLEY PUBL GRP-JOVE
+<option value=BETH>BETHANY HOUSE PUBL
+<option value=BHG>BETTER HOMES & GARDEN BOOKS
+<option value=BETZ>BETZ PUBL CO
+<option value=BDL>BLACK DOG & LEVENTHAL
+<option value=BSP>BLACK SPARROW PRESS
+<option value=BB>BLACKWELL PUBL
+<option value=BSCI>BLACKWELL SCIENCE
+<option value=BUK>BLACKWELL UK
+<option value=BLP>BLAKE PUBL
+<option value=BPC>BLOOMING PRESS CO
+<option value=BONU>BONUS BOOKS
+<option value=BS>BOOK SALES INC
+<option value=NIPP>BOOKS NIPPAN
+<option value=BOOK>BOOKWORLD SERVICES INC
+<option value=BORL>BORLAND
+<option value=BADV>BORLAND ADVANTAGE PLUS F/EDUCA
+<option value=BROA>BROADVIEW PRESS
+<option value=BROD>BRODERBUND SOFTWARE
+<option value=BC>BROOKS/COLE
+<option value=BDM>BROWN DISC MANUFACTURING INC
+<option value=BTR>BROWNTROUT
+<option value=BRUN>BRUNNER/MAZEL
+<option value=BUDG>BUDGET BOOK SERVICE
+<option value=BEP>BUREAU OF ELECTRONIC PUBL INC
+<option value=BUTT>BUTTERWORTH HEINEMANN
+<option value=CAER>CAERE CORP
+<option value=CAMB>CAMBRIDGE UNIV PRESS
+<option value=CSC>CAMBRIDGESOFT CORP
+<option value=CWP>CANDLEWICK PRESS
+<option value=CARD>CARDINAL TECHNOLOGIES INC
+<option value=CAR>CAREER PRESS INC
+<option value=LYLE>CAROL PUBL GRP
+<option value=CASE>CASENOTES PUBL CO INC
+<option value=CEDC>CEDCO PUBL CO
+<option value=CP>CENTENNIAL PRESS
+<option value=CAAS>CENTER FOR AFRO AMER STUDIES
+<option value=TUTT>CHARLES E TUTTLE CO INC
+<option value=CHAR>CHARLES PRESS PUBL
+<option value=CBR>CHARLESBRIDGE PUBL
+<option value=CHEC>CHECKERBOARD PRESS
+<option value=CHGR>CHELSEA GREEN PUBL CO
+<option value=CHP>CHELSEA HOUSE PUBL
+<option value=CHER>CHERRY ENTERPRISES
+<option value=CHIN>CHINA BKS & PERIODICALS INC
+<option value=CHRO>CHRONICLE BOOKS
+<option value=CLRN>CLARION SOFTWARE
+<option value=CLAR>CLARIS
+<option value=PLUS>CLARIS PLUS
+<option value=CLIF>CLIFFS NOTES INC
+<option value=COLD>COLDSTONE BKS NORTHBRANCH BKS
+<option value=COL>COLUMBIA UNIV PRESS
+<option value=COMP>COMPACT CLASSICS INC
+<option value=CU>COMPACT UNIVERSITY
+<option value=CC>COMPCARE PUBL
+<option value=CA>COMPUTER ASSOCIATES INTL
+<option value=CCI>COMPUTER CONFIDENCE INC
+<option value=CTIX>CONNECTIX CORPORATION
+<option value=CBSD>CONSORTIUM BOOK SALES & DIST
+<option value=CONS>CONSORTIUM INC
+<option value=CONT>CONTEMPORARY BOOKS INC
+<option value=CRCO>CONTINUUM PUBLISHING
+<option value=CORL>COREL SYSTEM CORP
+<option value=CORN>CORNELL UNIV PRESS
+<option value=CSTR>COSTAR CORP
+<option value=COUN>COUNCIL OAK BOOKS
+<option value=CTI>COURSE TECHNOLOGY
+<option value=COVE>COVEY LEADERSHIP CENTER INC
+<option value=CRC>CRC PRESS INC
+<option value=CABC>CREATIVE ARTS BOOK CO
+<option value=CROS>CROSSING PRESS
+<option value=CSRD>CROSSROAD PUBLISHING
+<option value=DACA>DA CAPO/PLENUM
+<option value=DAC>DACEASY INC
+<option value=DAL>DALKEY ARCHIVE PRESS
+<option value=DAY>DAY DREAM CALENDARS
+<option value=DSTR>DAYSTAR DIGITAL INC
+<option value=DDC>DDC PUBLISHING
+<option value=DEAR>DEARBORN TRADE
+<option value=DELP>DELPHINUS INC
+<option value=DEL>DELRINA CORP
+<option value=DEN>DENEBA SOFTWARE
+<option value=DSCI>DESIGN SCIENCE INC
+<option value=DE>DIGITAL ENTERTAINMENT
+<option value=DEC>DIGITAL EQUIPMENT CORP
+<option value=DPS>DIGITAL PRINTSHOP
+<option value=DB>DISTRIBOOKS INTERNATIONAL INC
+<option value=DDL>DISTRIBUIDORA DEL LIBRO
+<option value=DOV>DOVER PUBLICATIONS INC
+<option value=DUKE>DUKE UNIV PRESS
+<option value=DUL>DULARON INC
+<option value=EDC>EDC PUBLISHING
+<option value=EDUC>EDUCATIONAL SERVICES CORP
+<option value=MREF>EDUCATIONAL SYSTEMS-MICROREF
+<option value=EA>ELECTRONIC ARTS
+<option value=EAC>ELLIOTT & CLARK
+<option value=ELLI>ELLIPSYS INTL PUBLICATIONS
+<option value=EMAN>EMANUEL LAW OUTLINES
+<option value=ENG>ENGINEERING PRESS INC
+<option value=EXC>EXCELLER SOFTWARE CORP
+<option value=FAB>FABER & FABER INC PUBL
+<option value=FACT>FACTS ON FILE
+<option value=FALC>FALCON SOFTWARE INC.
+<option value=FARA>FARALLON COMPUTING INC
+<option value=FSG>FARRAR STRAUS & GIROUX INC
+<option value=FAWC>FAWCETT BOOKS
+<option value=FTA>FEARON TEACHER AIDS
+<option value=FEDR>FEDERAL REPORTS INC
+<option value=FGS>FIFTH GENERATION SYSTEMS
+<option value=FIRE>FIREFLY BOOKS LTD
+<option value=FB>FISHER BOOKS
+<option value=FORD>FORDHAM UNIV PRESS
+<option value=FOUN>FOUNDATION CENTER
+<option value=FRAM>FRAME TECHNOLOGY CORP
+<option value=FSP>FREE SPIRIT PUBL CO
+<option value=FROM>FROMM INTL PUBL CORP
+<option value=FTP>FTP SOFTWARE INC
+<option value=FULC>FULCRUM PUBL
+<option value=FGI>FUTURE GRAPH INC
+<option value=GAME>GAMETEK
+<option value=GARL>GARLAND PUBL INC
+<option value=BRAZ>GEORGE BRAZILLER INC
+<option value=GEOW>GEOWORKS
+<option value=GLEN>GLENCOE MACMILLAN MCGRAW HILL
+<option value=GV>GLOBAL VILLAGE COMMUNICATION
+<option value=GLOB>GLOBALINK INC
+<option value=GPP>GLOBE PEQUOT PRESS
+<option value=GOLD>GOLDHIL HOME MEDIA
+<option value=GOSP>GOSPEL PUBL HOUSE
+<option value=GRAY>GRAY & CO
+<option value=GLP>GREAT LAKES PRESS
+<option value=GUIL>GUILFORD PUBLICATIONS
+<option value=HAMM>HAMMOND INC
+<option value=HBJ>HARCOURT BRACE JOVANOVICH INC
+<option value=HRBL>HARCOURT BRACE LEGAL & PROFESS
+<option value=HPR>HARPERCOLLINS
+<option value=ABRA>HARRY N ABRAMS INC
+<option value=HLRA>HARVARD LAW REVIEW ASSN
+<option value=HARV>HARVARD UNIV PRESS
+<option value=HAWO>HAWORTH PRESS
+<option value=HAZE>HAZELDEN PUBL GROUP
+<option value=HCOM>HEALTH COMMUNICATIONS
+<option value=HEIN>HEINEMANN EDUCATIONAL BKS INC
+<option value=HOLT>HENRY HOLT & CO
+<option value=HEYD>HEYDAY BOOKS
+<option value=HIPP>HIPPOCRENE BOOKS INC
+<option value=HDAY>HOLIDAY HOUSE
+<option value=HM>HOUGHTON MIFFLIN CO
+<option value=HMC>HOUGHTON MIFFLIN CO (COL DIV)
+<option value=HOW>HOWARD UNIV PRESS
+<option value=HOYL>HOYLE PRODUCTS
+<option value=HUMK>HUMAN KINETICS
+<option value=HUNT>HUNTER PUBL
+<option value=INET>I/NET INC
+<option value=IBM>IBM OPTIONS
+<option value=IBMS>IBM PC COMPANY
+<option value=IDG>IDG BOOKS WORLDWIDE
+<option value=IMP>IMPACT PUBL INC
+<option value=INBK>INBOOK
+<option value=IPG>INDEPENDENT PUBLISHERS GROUP
+<option value=IUP>INDIANA UNIVERSITY PRESS
+<option value=INNE>INNER TRADITIONS INTL LTD
+<option value=INSG>INSIGNIA SOLUTIONS INC
+<option value=IEEE>INST OF ELECTRICAL & ELEC ENG
+<option value=IOP>INSTITUTE OF PHYSICS PUBL
+<option value=INTE>INTERLINK PUBL GROUP
+<option value=INTL>INTERNATIONAL PUBL CO INC
+<option value=PWS>INTERNATIONAL THOMSON PUBL
+<option value=PWS>INTERNATIONAL THOMSON PUBL
+<option value=IMSI>INTL MICROCOMPUTER SOFTWARE
+<option value=IOME>IOMEGA CORP
+<option value=II>IRVINE INTERACTIVE INC
+<option value=ISLA>ISLAND PRESS
+<option value=JACK>JACKSON SOFTWARE
+<option value=JAMS>JAMSA PRESS
+<option value=JLP>JEWISH LIGHTS PUBLISHING
+<option value=JIST>JIST WORKS INC
+<option value=BLAI>JOHN F BLAIR PUBL
+<option value=WIL>JOHN WILEY & SONS INC
+<option value=JHUP>JOHNS HOPKINS UNIVERSITY PRESS
+<option value=JB>JOSSEY BASS (TRADE)
+<option value=JOSS>JOSSEY-BASS PUBLISHERS
+<option value=JWM>JOURNEYWARE MEDIA INC
+<option value=JUMP>JUMPSTART SOFTWARE
+<option value=KEIT>KEITH CLARK
+<option value=KT>KITCHEN TABLE WOMEN OF COLOR P
+<option value=KLUT>KLUTZ PRESS
+<option value=LAB>LABTEC ENTERPRIZES INC
+<option value=LAND>LANDMARK CALENDARS
+<option value=LANG>LANGENSCHEIDT PUBL INC
+<option value=LLT>LARGELY LITERARY DESIGNS INC
+<option value=CKG>LAROUSSE KINGFISHER CHAMBERS
+<option value=LEG>LEGEND COMPUTER PRODUCTS
+<option value=LB>LITTLE BROWN & CO
+<option value=LOG>LOGIN PUBLISHERS CONSORTIUM
+<option value=LMP>LONGMEADOW PRESS
+<option value=LST>LONGSTREET PRESS
+<option value=LDC>LOTUS DEVELOPMENT CO
+<option value=LSUP>LOUISIANA STATE UNIV PRESS
+<option value=MCP>MACMILLAN COMPUTER PUBL
+<option value=MGR>MACMILLAN GENERAL REFERENCE
+<option value=MAME>MACMILLAN MERRILL
+<option value=MACM>MACMILLAN PUBL CO
+<option value=MMED>MACROMEDIA
+<option value=MVP>MACROMEDIA VOLUME PURCHASE PRO
+<option value=MAGN>MAGNA PUBLICATIONS
+<option value=MML>MASTERMEDIA LTD
+<option value=MAST>MASTERS PRESS
+<option value=MATH>MATHSOFT INC
+<option value=MXL>MAXELL CORP OF AMERICA
+<option value=MAXS>MAXIS
+<option value=MCG>MCGRAW HILL PUBL CO
+<option value=MECK>MECKLER CORP
+<option value=MM>MEDIO MULTIMEDIA INC
+<option value=MERC>MERCK PUBL GRP
+<option value=MERI>MERIWETHER PUBL LTD
+<option value=MERR>MERRIAM-WEBSTER INC
+<option value=MGV>MGV MEMORY
+<option value=MGFX>MICROGRAFX
+<option value=MS>MICROSOFT CORP
+<option value=MEF>MICROSOFT EASY FULFILLMENT
+<option value=MOLP>MICROSOFT OPEN LICENSE PAKS
+<option value=MICR>MICROSOFT PRESS
+<option value=EDMO>MICROSOFT PRESS EDMOLP BUNDLES
+<option value=MSS>MICROSOFT SELECT
+<option value=MMA>MIKE MURACH & ASSOCIATES
+<option value=MINI>MINITAB INC
+<option value=MIT>MIT PRESS
+<option value=MLA>MODERN LANGUAGE ASSOC
+<option value=MORE>MOREHOUSE PUBL
+<option value=NACS>NACS (POSTAGE)
+<option value=CORP>NACSCORP INC
+<option value=NACO>NACSCORP REMAINDER PROGRAM
+<option value=NAP>NATIONAL ACADEMY PRESS
+<option value=NAD>NATIONAL ASSOC OF THE DEAF
+<option value=KNBN>NATIONAL BOOK NETWORK
+<option value=MISC>NATIONAL COMPUTER DIST
+<option value=NCTM>NATIONAL COUNCIL TEACHERS MATH
+<option value=NLC>NATIONAL LEARNING CORP
+<option value=NLM>NATIONAL LIBRARY OF MEDICINE
+<option value=NNR>NATIONAL NURSING REVIEW
+<option value=NTC>NATIONAL TEXTBOOK CO
+<option value=NWF>NATIONAL WILDLIFE FEDERATION
+<option value=NAV>NAVARRE CORP
+<option value=NEC>NEC
+<option value=NET>NETCOM ON-LINE COMMUNICATIONS
+<option value=NCD>NETWORK COMPUTING DEVICES INC
+<option value=NCEN>NEW WIN PUBLISHING INC
+<option value=NYUP>NEW YORK UNIV PRESS
+<option value=NMP>NEWMARKET PRESS
+<option value=NEXT>NEXT INC
+<option value=NILE>NILES & ASSOCIATES INC
+<option value=NSI>NISUS SOFTWARE INC
+<option value=NSBK>NORTH SOUTH BOOKS
+<option value=NWUP>NORTHWESTERN UNIV PRESS
+<option value=NOVA>NOVA DEVELOOPMENT CORP
+<option value=NP>NOVA PRESS
+<option value=NOVL>NOVELL INC
+<option value=CNOV>NOVELL INC (CANADIAN VERSIONS)
+<option value=NOW>NOW SOFTWARE INC
+<option value=NUK>NU-KOTE INTERNATIONAL
+<option value=KODK>NU-KOTE INTERNATIONAL
+<option value=NUM>NUMINA CORP
+<option value=OREI>O'REILLY & ASSOCIATES INC
+<option value=OHIO>OHIO UNIV PRESS
+<option value=OPEN>OPEN COURT PUBL CO
+<option value=OF>ORANGE FORTUNE
+<option value=ORCH>ORCHARD BOOKS
+<option value=ORBI>ORIBIS BOOKS
+<option value=OUT>OUTLET BOOK CO
+<option value=OXF>OXFORD UNIV PRESS
+<option value=PACI>PACIFIC SOFTWARE PUBLISHING
+<option value=PTEC>PAPERTECH MARKETING GRP INC
+<option value=PHP>PARAGON HOUSE PUBL
+<option value=PASS>PASSPORT (LOTUS DEVEL CO)
+<option value=PATH>PATHFINDER PRESS
+<option value=PAUL>PAULIST PRESS
+<option value=PCGU>PC GUARDIAN
+<option value=PEAC>PEACHTREE PUBL LTD
+<option value=NAL>PENGUIN USA
+<option value=PENG>PENGUIN USA
+<option value=POI>PENTON OVERSEAS INC
+<option value=PMX>PERMAX SYSTEMS INC
+<option value=PBS>PERSONAL BIBLIOGRAPHIC SOFTWRE
+<option value=PETE>PETERSONS GUIDES
+<option value=PFEI>PFEIFFER & CO
+<option value=PDR>PHYSICIANS DESK REFERENCE
+<option value=PC>PLANET CORP
+<option value=PLUR>PLURIBUS PRESS
+<option value=PMC>PMC PUBL CO INC
+<option value=PB>POCKET BOOKS
+<option value=POME>POMEGRANTE ARTBOOKS INC
+<option value=PDL>PORTRAIT DISPLAY LABS
+<option value=PREL>PRELUDE PRESS
+<option value=PREN>PRENTICE HALL CAR & PERS DEV
+<option value=PH>PRENTICE HALL PTR
+<option value=PRSC>PRESCIENCE CORP
+<option value=PSS>PRICE STERN SLOAN
+<option value=PRIM>PRIMA PUBLISHING
+<option value=PAP>PRINCETON ARCHITECTURAL PRESS
+<option value=PUP>PRINCETON UNIV PRESS
+<option value=PROB>PROBUS PUBLISHING
+<option value=PROF>PROFESSIONAL PUBLICATIONS INC
+<option value=PROM>PROMETHEUS BOOKS
+<option value=PE>PROMETHEUS ENTERPRISES
+<option value=PRO>PROMETHEUS PRODUCTS INC
+<option value=PGW>PUBLISHERS GROUP WEST
+<option value=PUTN>PUTNAM PUBLISHING GROUP
+<option value=QUAD>QUADRANGLE SOFTWARE
+<option value=RAND>RAND MCNALLY & CO
+<option value=RH>RANDOM HOUSE INC
+<option value=IVY>RANDOM HOUSE-IVY BOOKS
+<option value=READ>READING BOOKS
+<option value=REA>RESEARCH & EDUCATION ASSOC
+<option value=RIS>RESEARCH INFORMATION SYSTEMS
+<option value=RWP>ROGER WAGNER PUBLISHING
+<option value=RSP>RONNIE SELLERS PRODUCTIONS
+<option value=ROUT>ROUTLEDGE CHAPMAN & HALL
+<option value=RUDI>RUDI PUBLISHING
+<option value=RUNN>RUNNING PRESS
+<option value=RUSS>RUSSELL SAGE FOUNDATION
+<option value=RUTG>RUTGERS UNIV PRESS
+<option value=RHP>RUTLEDGE HILL PRESS
+<option value=SAGE>SAGE PUBLICATIONS
+<option value=SALI>SALIX CORP
+<option value=FREN>SAMUEL FRENCH TRADE
+<option value=SCB>SCB DISTRIBUTORS
+<option value=SCHM>SCHAUMS MCGRAW-HILL BK CO
+<option value=SR>SCHOLARLY RESOURCES INC
+<option value=SCHL>SCHOLASTIC INC
+<option value=SCI>SCIENTIA INC
+<option value=SCIT>SCITECH INTERNATIONAL INC
+<option value=SCRE>SCREENIES
+<option value=SHAP>SHAPEWARE CORP
+<option value=SONL>SIERRA ON-LINE INC
+<option value=SS>SIMON & SCHUSTER
+<option value=SMG>SIMSBURY MANAGEMENT GROUP
+<option value=SKY>SKY PUBLISHING CORPORATION
+<option value=WHSM>SMITHMARK PUBL
+<option value=SMIT>SMITHSONIAN INSTITUTION PRESS
+<option value=SKI>SOFTKEY INTERNATIONAL
+<option value=SPC>SOFTWARE PUBL CORP
+<option value=SONY>SONY INTERACTIVE PC SOFTWARE A
+<option value=SIU>SOUTHERN ILLINOIS UNIV PRESS
+<option value=SI>SPECTRAL INTELLIGENCE CORP
+<option value=SPLX>SPELLEX DEVELOPMENT
+<option value=SV>SPRINGER-VERLAG NEW YORK INC
+<option value=SPR>SPRINGHOUSE PUBL CO
+<option value=SSI>SSI DISTRIBUTION SERVICES
+<option value=STM>ST MARTINS PRESS
+<option value=STAN>STANFORD UNIV PRESS
+<option value=STAT>STATSCI
+<option value=SHC>STEINLITZ-HAMMACHER CO
+<option value=STC>STEWART TABORI & CHANG
+<option value=SUBT>SUBTERRANEAN CO
+<option value=SULZ>SULZBURGER & GRAHAM PUBL LTD
+<option value=SUM>SUM & SUBSTANCE
+<option value=SG>SUMMIT GROUP
+<option value=SUNS>SUNSET BOOKS
+<option value=SMAC>SUPERMAC TECHNOLOGY INC
+<option value=SYBE>SYBEX INC
+<option value=SYMA>SYMANTEC CORP
+<option value=SVP>SYMANTEC VALUE PROGRAM
+<option value=SYQ>SYQUEST TECHNOLOGY
+<option value=SYRA>SYRACUSE UNIV PRESS
+<option value=SYST>SYSTAT INC
+<option value=SCON>SYSTEM CONNECTION
+<option value=SCOC>SYSTEM CONNECTION CUSTOM CABLE
+<option value=SCC>SYSTEMS COMPATIBILTY CORP
+<option value=TMC>T/MAKER CO
+<option value=TABO>TABOR PUBLISHING
+<option value=TAFT>TAFT GROUP
+<option value=TAYL>TAYLOR PUBL CO
+<option value=TCI>TCI SOFTWARE RESEARCH
+<option value=TENE>TE NEUES PUBL CO
+<option value=TSI>TECHNICAL SOFTWARE INC
+<option value=TEMP>TEMPLE UNIV PRESS
+<option value=TEN>TEN SPEED PRESS
+<option value=TLC>THE LEARNING COMPANY
+<option value=TMW>THE MATH WORKS INC
+<option value=TSP>THIRD SECTOR PRESS
+<option value=NELS>THOMAS NELSON PUBL CO
+<option value=TGI>THOMASSON GRANT INC
+<option value=TIDE>TIDE MARK PRESS
+<option value=TIGE>TIGER PUBL GRP
+<option value=TW>TIME WARNER INTERACTIVE GRP
+<option value=TLA>TLA PUBLICATIONS
+<option value=TRAF>TRAFALGAR SQUARE
+<option value=TL>TRANSPARENT LANGUAGE
+<option value=TWAY>TWAYNE PUBL
+<option value=TYND>TYNDALE HOUSE PUBL
+<option value=USR>U S ROBOTICS INC
+<option value=ULED>ULED SYSTEMS
+<option value=ARIZ>UNIV OF ARIZONA PRESS
+<option value=CAL>UNIV OF CALIFORNIA PRESS
+<option value=CHIC>UNIV OF CHICAGO PRESS
+<option value=UGP>UNIV OF GEORGIA PRESS
+<option value=ILL>UNIV OF ILLINOIS PRESS
+<option value=IOWA>UNIV OF IOWA PRESS
+<option value=MASS>UNIV OF MASSACHUSETTS PRESS
+<option value=MINN>UNIV OF MINNESOTA PRESS
+<option value=UMP>UNIV OF MISSOURI PRESS
+<option value=NEBR>UNIV OF NEBRASKA PRESS
+<option value=UNMP>UNIV OF NEW MEXICO PRESS
+<option value=NCAR>UNIV OF NORTH CAROLINA PRESS
+<option value=OKLA>UNIV OF OKLAHOMA PRESS
+<option value=UPIT>UNIV OF PITTSBURGH PRESS
+<option value=UTEN>UNIV OF TENNESSEE PRESS
+<option value=TEX>UNIV OF TEXAS PRESS
+<option value=WASH>UNIV OF WASHINGTON PRESS
+<option value=WISC>UNIV OF WISCONSIN PRESS
+<option value=KANS>UNIV PRESS OF KANSAS
+<option value=UPKY>UNIV PRESS OF KENTUCKY
+<option value=UPNE>UNIV PRESS OF NEW ENGLAND
+<option value=UPVA>UNIV PRESS OF VIRGINIA
+<option value=UP>UP SOFTWARE INC
+<option value=MHZ>US ROBOTICS/MCC
+<option value=VNR>VAN NOSTRAND REINHOLD
+<option value=VENT>VENTANA PRESS
+<option value=VISI>VISIBLE INK PRESS
+<option value=VISO>VISIO CORPORATION
+<option value=VISN>VISIONEER
+<option value=VIS>VISUAL EDUCATION ASSOCIATION
+<option value=VLA>VOLUME LICENSING AGREEMENT
+<option value=VOY>VOYAGER COMPANY
+<option value=FREE>W H FREEMAN & CO
+<option value=NORT>W W NORTON & CO INC
+<option value=WADS>WADSWORTH PUBL CO
+<option value=WALK>WALKER & CO
+<option value=WARN>WARNER BOOKS
+<option value=WMS>WATERLOO MAPLE SOFTWARE
+<option value=WGP>WATSON GUPHILL PUBLICATIONS
+<option value=WAYN>WAYNE STATE UNIV PRESS
+<option value=WEA>WEA
+<option value=WEAT>WEATHERHILL INC
+<option value=WEP>WEST EDUCATIONAL PUBL
+<option value=WEST>WESTERN PUBL
+<option value=MORR>WILLIAM MORROW CO
+<option value=WWP>WILLIAMS & WILKINS
+<option value=EERD>WM B EERDMANS PUBL CO
+<option value=WRI>WOLFRAM RESEARCH INC
+<option value=WOOD>WOODBINE HOUSE
+<option value=WRD>WORD INC
+<option value=WORD>WORDWARE PUBL INC
+<option value=WORK>WORKMAN PUBL CO
+<option value=WORL>WORLD BIBLE PUBL INC
+<option value=WDIG>WRITERS DIGEST BOOKS
+<option value=WROX>WROX PRESS LIMITED
+<option value=WYNW>WYNWOOD PRESS
+<option value=XENO>XENOS BOOKS
+<option value=XIRC>XIRCOM
+<option value=YALE>YALE UNIV PRESS
+<option value=ZIFF>ZIFF DAVIS PRESS
+<option value=ZOND>ZONDERVAN PUBL HOUSE
+<option value=ZOOM>ZOOM TELEPHONICS
+
+      </select></td>
+<tr>
+   <td align=right><font size=2>Subject<br>Category</td>
+   <td colspan=2><select name="cat">
+      <option selected>All
+      <option>AMERICAN DRAMA
+<option>ARCHAEOLOGY
+<option>ARCHITECTURE
+<option>ART & DESIGN
+<option>ASIAN AMER STUDIES
+<option>BIOGRAPHY
+<option>BLACK STUDIES
+<option>BUSINESS & ECON
+<option>CALENDARS - NONPICT
+<option>CALENDARS - PICTURE
+<option>COMP - DATABASES
+<option>COMP - GRAPHICS/DESK
+<option>COMP - HARDWARE
+<option>COMP - IBM
+<option>COMP - INTEGRATED
+<option>COMP - LANG/PROG
+<option>COMP - MAC
+<option>COMP - MATH/STAT
+<option>COMP - MULTI/AUDIO
+<option>COMP - NETWORK/COMM
+<option>COMP - OPERATING SYS
+<option>COMP - OTHER SYSTEMS
+<option>COMP - REFERENCE
+<option>COMP - SPREADSHEETS
+<option>COMP - UTILS/OTHER
+<option>COMP - WORD PROCESS
+<option>CONTINUING ED/CAREER
+<option>COOKBKS/ENTERTAINING
+<option>CRAFTS/HOBBIES/HOME
+<option>DISPLAYS
+<option>DRAMA
+<option>EDUCATION
+<option>ENGINEERING
+<option>ESL
+<option>FICT - GENERAL
+<option>FICT - HORROR
+<option>FICT - MYSTERIES
+<option>FICT - ROMANCE
+<option>FICT - SCI/FANTASY
+<option>FICT - SHORT STORIES
+<option>FICT - SUSPENSE
+<option>FICT - WESTERNS
+<option>FOREIGN LANG BKS
+<option>GAMES & FUN BOOKS
+<option>GARDENING
+<option>GAY/LESBIAN
+<option>GRAPHIC NOVELS
+<option>HARDWARE
+<option>HEALTH/DIET/NUTRI
+<option>HISTORY
+<option>HISTORY - US
+<option>HOLIDAYS
+<option>HUMOR
+<option>INFANT & CHILD CARE
+<option>INSPIRATIONAL
+<option>JUV - BEG READERS
+<option>JUV - BOARD BOOKS
+<option>JUV - NON FICT
+<option>JUV - PICTURE
+<option>JUV - PRESCHOOL
+<option>JUV - READERS 8-12
+<option>JUV - YOUNG ADULT
+<option>LANGUAGE
+<option>LATIN AMER STUDIES
+<option>LAW
+<option>LITERARY CRITICISM
+<option>LITERATURE
+<option>MEDIA
+<option>MEDICINE
+<option>MUSIC
+<option>MYTHOLOGY/FOLKLORE
+<option>NATIVE AMER STUDIES
+<option>NATURE
+<option>NEW AGE
+<option>PERFORMING ARTS
+<option>PERIPHERALS
+<option>PHILOSOPHY
+<option>PHOTOGRAPHY
+<option>POETRY
+<option>POLITICAL SCIENCE
+<option>PREGNANCY/CHILDBIRTH
+<option>PROMOTIONAL BOOKS
+<option>PSYCHOLOGY
+<option>REF - ATLASES/MAPS
+<option>REF - DICTIONARIES
+<option>REF - FOREIGN LANG
+<option>REF - GENERAL
+<option>REF - STYLE/WORD BKS
+<option>RELIGION
+<option>RSP SCIENCE AND NATURE
+<option>RSP WOMEN'S STUDIES
+<option>SCIENCE - ASTRONOMY
+<option>SCIENCE - BIOLOGY
+<option>SCIENCE - CHEMISTRY
+<option>SCIENCE - EARTH SCI
+<option>SCIENCE - ECOLOGY
+<option>SCIENCE - GENERAL
+<option>SCIENCE - MATH
+<option>SCIENCE - PHYSICS
+<option>SELF HELP
+<option>SEX
+<option>SOCIOLOGY/ANTHRO
+<option>SOFTWARE - ACCOUNTING
+<option>SOFTWARE - DISPLAY
+<option>SOFTWARE - DOS
+<option>SOFTWARE - LICENSE
+<option>SOFTWARE - MACINTOSH
+<option>SOFTWARE - MANUAL/WORKBOOK
+<option>SOFTWARE - MATHEMATICS/STATIST
+<option>SOFTWARE - NEXT
+<option>SOFTWARE - OS/2
+<option>SOFTWARE - POWER PC
+<option>SOFTWARE - PROMOTIONAL ITEMS
+<option>SOFTWARE - SPECIAL INSTRUCTION
+<option>SOFTWARE - SPECIAL OFFERS
+<option>SOFTWARE - UNIX
+<option>SOFTWARE - UTILITIES
+<option>SOFTWARE - VIDEO
+<option>SOFTWARE - WINDOWS
+<option>SPORTS & FITNESS
+<option>STUDENT AIDS
+<option>STUDY GUIDES
+<option>SUBSTANCE ABUSE
+<option>SUPPLIES
+<option>TEACHERS AIDS
+<option>TECHNOLOGY
+<option>TEST PREPS
+<option>TRAVEL
+<option>TRAVEL GUIDES
+<option>TRUE CRIME
+<option>VIETNAM STUDIES
+<option>WOMEN'S STUDIES
+
+      </select></td>
+<tr>
+   <td align=right><font size=2>Product<br>Type</td>
+   <td colspan=2><select name="type">
+      <option selected>All
+      <option>ADULT HARDCOVER
+<option>ADULT PAPER
+<option>AUDIO
+<option>CALENDARS
+<option>CLOSE OUT/HURTS
+<option>COMPUTER BOOKS
+<option>COMPUTER SUPPLIES
+<option>CONSUMER CATALOGS
+<option>DIGITAL PUBLISHNG TITLES
+<option>FOREIGN
+<option>HARDWARE
+<option>JUVENILE HARDCOVER
+<option>JUVENILE PAPER
+<option>MASS MARKET ADULT
+<option>MASS MARKET CLASSICS
+<option>MISC SUPPLIES
+<option>NFR
+<option>NON BOOK MERCHANDISE
+<option>OTHER MERCHNADISE/P.O.P.
+<option>PROFESSIONAL
+<option>PROMOTIONAL MERCHANDISE AIDS
+<option>REMIANDER ASSORTMENTS
+<option>REMIANDER SINGLE TITLES
+<option>SOFTWARE EDUCATIONALLY PRICED
+<option>SOFTWARE NON EDUCATIONALY PRIC
+<option>UNIVERSITY PRESS HARDCOVER
+<option>UNIVERSITY PRESS PAPER
+
+      </select></td>
+</table>
+</td>
+   <td valign=top rowspan=2><font size=2>
+      <li>The values you enter can match any part of a field.  For
+example, if you enter "king" for the <b>title</b> you could
+receive "Unix Networking" as well as "King's Quest VII."
+
+<li>The publisher field no longer uses the NACSCORP abbreviations.  Instead,
+we now use full publisher name.  You can make use of partial matching, as
+described above, or you can use the Publisher Pull-down.
+<p>
+<font size=3>
+For further help please view the <a href="/common/browse_guide.stm">
+Guide to Searching</a>.
+</font>
+
+      </font></td>
+<tr>
+   <td><table width=100%>
+<tr>
+<td valign=top>
+<img align=left src="/common/new04.gif">
+</td>
+<td>
+<B><FONT SIZE=3>Free Norton Antivirus with Microsoft Office 97!<BR>
+</B><FONT SIZE=2>Buy new Microsoft Office or Office for Windows
+and receive Norton Antivirus at no additional Charge<BR>
+</FONT><FONT SIZE=1>Microsoft Office for Mac includes Norton Utilities
+at no additional cost.  Subject to restrictions.</FONT>  
+</td>
+</tr>
+</table>
+</td>
+</table>
+</form>
+
+<p>
+<font size=2>
+<i>Need assistance?<a href="mailto:webmaster@nacscorp.com">webmaster@nacscorp.com</a> can help.</i>
+<hr>
+<a href="/default.htm">Home</a> •
+<a href="/guest/browse_guest.stm">Browse the Product Database</a> •
+<a href="/guest/vendors_guest.stm">Vendor Information</a> •
+<a href="/guest/policies_guest.stm">Policies & Contacts</a> •
+<a href="/guest/licensing/guest_vl.stm">Volume Licensing</a> •
+<a href="http://www.nacs.org">NACS</a></font>
+
+   </td>
+</table>
+
+
+</body>
+</html>
