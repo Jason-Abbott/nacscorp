@@ -1,7 +1,7 @@
 # Overview
 This repository is an historical record of work done for [NACSCORP](http://www.nacscorp.com/default.aspx), a wholesaler to campus retailers.
 
-![Logo](/NACSCORP.jpg?raw=true)
+![Logo](/NACSCORP.JPG?raw=true)
 
 - Created: 1996
 - Platform: EMWACS (precursor to Microsoft IIS) and Perl CGI
